@@ -1,0 +1,17 @@
+[Unit]
+Description=Community Dashboard Telemetry Agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/community-dashboard-agent/dashboard-agent.py --config /etc/community-dashboard-agent/config.json
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ReadOnlyPaths=/proc /sys /etc/os-release
+
+[Install]
+WantedBy=multi-user.target

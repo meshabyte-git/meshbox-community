@@ -1,0 +1,20 @@
+{
+  "agent": {
+    "bind": "0.0.0.0",
+    "port": 9876,
+    "status_page": true,
+    "cors_origins": [
+      "*"
+    ]
+  },
+  "telemetry": {
+    "cpu": true,
+    "memory": true,
+    "storage": true,
+    "uptime": true,
+    "network_speed": true,
+    "operating_system": true,
+    "ip_address": true,
+    "tailscale_ip": true
+  }
+}

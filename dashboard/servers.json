@@ -1,0 +1,6 @@
+{
+  "dashboard_name": "Community Dashboard",
+  "theme": "system",
+  "refresh_interval": 30,
+  "servers": []
+}

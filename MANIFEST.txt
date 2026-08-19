@@ -1,0 +1,12 @@
+MeshBox Community Gen 1
+
+agent/          Linux telemetry agent + systemd service
+status-page/    Local status page notes (page is built into agent)
+dashboard/      Gen 1 community dashboard + installer
+bootstrap/      Interactive terminal bootstrap generator
+community-site/ Public site, browser builder and demo pages
+scripts/        Community VM deployment helpers
+docs/           Configuration, telemetry and security docs
+examples/       Example telemetry configs
+LICENSE         Apache License 2.0
+NOTICE          Project notice
