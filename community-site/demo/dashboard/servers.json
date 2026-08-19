@@ -1,0 +1,13 @@
+{
+  "dashboard_name": "Community Dashboard Demo",
+  "theme": "system",
+  "refresh_interval": 30,
+  "servers": [
+    {
+      "name": "Community VM",
+      "connection": "local",
+      "url": "/demo-agent",
+      "role": "Live demo server"
+    }
+  ]
+}
